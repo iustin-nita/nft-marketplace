@@ -27,7 +27,6 @@ module.exports = {
       url: `https://polygon-mumbai.infura.io/v3/${process.env.projectId}`,
       accounts: [privateKey],
     },
-    rinkeby: {},
     mainnet: {
       url: `https://polygon-mainnet.infura.io/v3/${process.env.projectId}`,
       accounts: [privateKey],
